@@ -1,0 +1,25 @@
+{
+  "name": "raphael-chart",
+  "description": "For recruitment purposes",
+  "main": "server.js",
+  "authors": [
+    "Oskar Kaminski <oskarkaminski.dev@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
