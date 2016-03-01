@@ -47,7 +47,7 @@ System.register(['../../bower_components/lodash/lodash', './config'], function(e
                 };
                 BarchartComponent.prototype.drawVerticalLabels = function (elem, index) {
                     this.paper.text(this.getLabelHorizontalPosition(elem.value) + this.horizontalOffset, this.getLabelVerticalPosition(index), elem.value).attr(config_1.labelAttrs).attr({ 'fill': '#fff' });
-                    this.paper.text(this.config.labelsWidth / 2, this.getLabelVerticalPosition(index), elem.name).attr(config_1.labelAttrs);
+                    this.paper.text(this.config.labelsWidth / 2, this.getLabelVerticalPosition(index), lodash_1.default.truncate(elem.name, { length: 14 })).attr(config_1.labelAttrs);
                 };
                 BarchartComponent.prototype.drawHorizontalAxisLables = function () {
                     for (var i = 0; i <= 100; i += 10) {

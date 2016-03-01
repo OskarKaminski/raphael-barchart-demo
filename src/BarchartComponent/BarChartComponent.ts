@@ -62,7 +62,7 @@ export default class BarchartComponent implements IBarchartComponent {
         this.paper.text(
             this.config.labelsWidth / 2,
             this.getLabelVerticalPosition(index),
-            elem.name
+            _.truncate(elem.name, {length: 14})
         ).attr(labelAttrs);
     }
 
