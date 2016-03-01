@@ -20,6 +20,8 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "^3.3.6"
+    "bootstrap": "^3.3.6",
+    "raphael": "^2.1.4",
+    "lodash": "^4.5.1"
   }
 }

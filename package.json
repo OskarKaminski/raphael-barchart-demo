@@ -9,6 +9,15 @@
   "author": "Oskar Kaminski <oskarkaminski.dev@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "bower": "^1.7.7"
+    "bower": "^1.7.7",
+    "es6-shim": "^0.35.0",
+    "systemjs": "^0.19.23"
+  },
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^2.12.0",
+    "gulp-webserver": "^0.9.1",
+    "typescript": "^1.8.2"
   }
 }

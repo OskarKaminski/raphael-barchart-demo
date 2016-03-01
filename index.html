@@ -4,13 +4,27 @@
     <meta charset="UTF-8">
     <title>The Front End test</title>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+
+    <script src="/node_modules/typescript/lib/typescript.js"></script>
+    <script src="/node_modules/es6-shim/es6-shim.min.js"></script>
+    <script src="/node_modules/systemjs/dist/system.js"></script>
+    <script src="config.js"></script>
 </head>
 <body>
 <div class="container">
-    <form class="form-inline">
-        <input type="number" class="form-control" placeholder="set any number">
-        <button type="submit" class="btn btn-default">Try me!</button>
-    </form>
+    <div id="timeline"></div>
+    <h1>Raphael bar chart demo</h1>
+    <div id="barchart" style="width: 100%"></div>
+
+
+    <textarea id="bar-data" class="form-control" placeholder="json..." rows="10"></textarea>
+    <button id="submit-btn" class="btn btn-default form-control">Try me!</button>
 </div>
+
+<!-- TODO: change to .min-->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/lodash/dist/lodash.min.js"></script>
+<script src="bower_components/raphael/raphael.js"></script>
+<script>System.import("./dist/app");</script>
 </body>
 </html>
