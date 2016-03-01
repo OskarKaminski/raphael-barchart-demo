@@ -1,7 +1,6 @@
 import _ from '../../bower_components/lodash/lodash'
 import {defaults, simpleLineAttrs, labelAttrs} from './config'
-import {IBarchartComponent} from "./BarChart";
-import {IBar} from "./BarChart";
+import {IBarchartComponent, IBar} from "./Interfaces";
 
 export default class BarchartComponent implements IBarchartComponent {
 

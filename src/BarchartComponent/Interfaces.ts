@@ -20,23 +20,6 @@ export interface IBarchartComponent{
     getHorizontalOffset(): number;
 }
 
-export interface IBarchartComponentConfig{
-    paperWidth: number;
-    paperHeight: number;
-    color: string;
-    fillOpacity: number;
-    strokeWidth: number;
-    maxValue: number;
-    barHeight: number;
-    barPadding: number;
-    startXPosition: number;
-}
-
-export interface IBarchart{
-    bars: IBar,
-    color: string
-}
-
 export interface IBar{
     name: string,
     value: number,
